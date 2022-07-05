@@ -344,16 +344,38 @@
 
 
 /* 스토어 로케이터 그림 */
-#store img {
+
+#store .l_container {
     width: 50%;
-    box-sizing: border-box;
-    padding: 50px 0px 50px 0px;
-    /* padding:/0px */
+    height: 600px;
+    position: relative;
+    overflow: hidden;
 }
+
+#store .l_container .l_slider {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+#store .l_container .l_slider .l_item>img {
+    width: 100%;
+    height: 600px;
+}
+
+#store .l_container ul {
+    -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+    -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+    transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+}
+
 
 /* 스토어 로케이터 스크립트 */
 #store .s_script {
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
     text-align: center;
     padding: 50px 0px 50px 0;

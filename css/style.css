@@ -6,7 +6,7 @@
 /* 메인 */
 #main {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: url('../images/main\ image\ \(4\).jpg');
     background-size: cover;
 }
@@ -61,52 +61,109 @@
 /* 탁월한 셀렉션 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
 #section {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: rgb(252, 252, 248);
 }
 
 #section h3 {
     font-size: 35px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
-/* 탁월한 셀렉션 이미지 4개 */
-#section .image {
+
+/* 슬라이드 효과  */
+#slideShow {
+    width: 80%;
+    height: 350px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#slideShow .slides {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    transition: left 0.5s ease-out;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+
+#slideShow .slides li:first-child {
+    margin-left: 60px;
+}
+
+#slideShow .slides li:not(:last-child) {
+    float: left;
+    margin-right: 100px;
+}
+
+#slideShow .slides li {
+    float: left;
+}
+
+#slideShow .slides li img {
     width: 100%;
-    height: 200px;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
+    height: 300px;
 }
 
-#section .image img {
-    width: 200px;
-    height: 200px;
-    margin-right: 15px;
+#slideShow .controller span {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
 }
 
+#slideShow .controller span:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+#slideShow .controller .prev {
+    left: 10px;
+}
+
+
+#slideShow .controller .prev:hover {
+    transform: translateX(-10px);
+}
+
+#slideShow .controller .next {
+    right: 10px;
+}
+
+
+#slideShow .controller .next:hover {
+    transform: translateX(10px);
+}
 
 /* 탁월한 셀렉션 shop now */
 #section .image_shop {
-    padding-top: 30px;
     text-align: center;
 }
 
 #section .image_shop a {
-    font-size: 14px;
+    font-size: 18px;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 6px 12px;
+    padding: 6px 24px 10px 24px;
+    font-weight: bold;
 }
 
 #section .image_shop a:hover {
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
     border: 1px solid rgb(44, 44, 44);
     background-color: rgb(44, 44, 44);
     border-radius: 10px;
-    padding: 6px 12px;
+    padding: 6px 24px 10px 24px;
     cursor: pointer;
 }
 
@@ -130,18 +187,18 @@
 /* 한정출시 설명내용 */
 #launch h3 {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #launch h4 {
     color: #fff;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 16px;
+    padding-top: 30px;
 }
 
 #launch p {
     color: #fff;
-    font-size: 10px;
+    font-size: 14px;
     padding-top: 20px;
 }
 
@@ -156,7 +213,7 @@
     background-color: rgb(116, 116, 116);
     color: rgb(53, 16, 16);
     border-radius: 10px;
-    padding: 6px 12px;
+    padding: 6px 24px 10px 24px;
 }
 
 #launch .launch_shop a:hover {
@@ -172,10 +229,10 @@
 
 #rec {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-image: url(../images/image4.jpg);
     background-size: cover;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 #rec:hover {
@@ -188,13 +245,13 @@
     color: rgb(252, 252, 248);
     display: flex;
     justify-content: center;
-    padding-top: 85px;
+    padding-top: 130px;
 }
 
 /* 가이드 */
 #guide {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-image: url(../images/main\ image\(3\).jpg);
     background-size: cover;
     margin-top: 10px;
@@ -210,13 +267,13 @@
     color: rgb(252, 252, 248);
     display: flex;
     justify-content: center;
-    padding-top: 85px;
+    padding-top: 130px;
 }
 
 /* 향수의 역사 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 #history {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: rgb(252, 252, 248);
     display: flex;
     justify-content: space-between;
@@ -227,15 +284,15 @@
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    /* padding: 50px 0px 50px 0; */
+    /* padding: 50px 0px 0px 0; */
 }
 
 #history .h_sciprt h3 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 #history .h_sciprt p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* 향수의 역사 > 더보기 */
@@ -247,8 +304,8 @@
 #history .h_sciprt a {
     font-size: 14px;
     border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px 12px;
+    border-radius: 10px;
+    padding: 6px 24px 6px 24px;
 }
 
 #history .h_sciprt a:hover {
@@ -261,10 +318,8 @@
 /* 향수의 역사 비디오 */
 
 #history .h_video {
-    width: 1000px;
-    height: 500px;
+    width: 50%;
     box-sizing: border-box;
-    padding: 50px 0px 50px 0px;
 }
 
 /* 밑줄 */
@@ -280,7 +335,7 @@
 
 #store {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: rgb(252, 252, 248);
     display: flex;
     justify-content: space-between;
@@ -290,8 +345,7 @@
 
 /* 스토어 로케이터 그림 */
 #store img {
-    width: 1000px;
-    height: 500px;
+    width: 50%;
     box-sizing: border-box;
     padding: 50px 0px 50px 0px;
     /* padding:/0px */
@@ -306,24 +360,24 @@
 }
 
 #store .s_script h3 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 #store .s_script p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
 /* 스토어 로케이터 > 가까운 스토어 찾기 */
 #store .s_script .close {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #store .s_script .close a {
     font-size: 14px;
     border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px 12px;
+    border-radius: 10px;
+    padding: 8px 24px 8px 24px;
 }
 
 #store .s_script .close a:hover {
@@ -346,16 +400,17 @@
 
 #travel {
     width: 100%;
-    height: 700px;
+    height: 900px;
+    background: black;
     background-color: rgb(252, 252, 248);
     box-sizing: border-box;
-    margin-top: 80px;
 }
 
 #travel .t_script {
     width: 100%;
     height: 230px;
     text-align: center;
+    margin-top: 150px;
 }
 
 #travel .t_script h3 {
@@ -363,12 +418,12 @@
 }
 
 #travel .t_script p {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 14px;
 }
 
 #travel .t_script>div {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #travel .t_script div>a {
@@ -390,21 +445,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 #travel .t_pic .p1 {
     width: 33%;
-    height: 400px;
 }
 
 #travel .t_pic .p2 {
     width: 33%;
-    height: 400px;
 }
 
 #travel .t_pic .p3 {
     width: 33%;
-    height: 400px;
 }
 
 
@@ -427,7 +480,6 @@
 #ment .t_ment {
     width: 100%;
     height: 200px;
-    margin-top: 50px;
     text-align: center;
     font-style: italic;
 }

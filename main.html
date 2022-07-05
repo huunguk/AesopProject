@@ -36,12 +36,21 @@
         <!-- 탁월한 셀렉션 -->
         <section id="section">
             <h3>탁월한 셀렉션</h3>
-            <div class="image">
-                <img src="./images/탁월한 셀렉션/아로마틱 핸드워시.png" alt="">
-                <img src="./images/탁월한 셀렉션/테싯 오드 퍼퓸.png" alt="">
-                <img src="./images/탁월한 셀렉션/제라늄 리프 바디 클렌저.png" alt="">
-                <img src="./images/탁월한 셀렉션/휠 오드 퍼퓸.png" alt="">
+            <div id="slideShow">
+                <ul class="slides">
+                    <li><img src="images/탁월한 셀렉션/로즈 오 드 퍼퓸.png" alt=""></li>
+                    <li><img src="images/탁월한 셀렉션/샤인 헤어 앤 비어드 오일.png" alt=""></li>
+                    <li><img src="images/탁월한 셀렉션/아로마틱 핸드워시.png" alt=""></li>
+                    <li><img src="images/탁월한 셀렉션/제라늄 리프 바디 클렌저.png" alt=""></li>
+                    <li><img src="images/탁월한 셀렉션/테싯 오드 퍼퓸.png" alt=""></li>
+                    <li><img src="images/탁월한 셀렉션/휠 오드 퍼퓸.png" alt=""></li>
+                </ul>
+                <p class="controller">
+                    <span class="prev">&lang;</span>
+                    <span class="next">&rang;</span>
+                </p>
             </div>
+
             <div class="image_shop">
                 <a href="#">shop now</a>
             </div>
@@ -84,7 +93,7 @@
                     <a href="#">더 보기</a>
                 </div>
             </div>
-            <video class="h_video" autoplay loop>
+            <video class="h_video" autoplay muted loop>
                 <source src="./video/history.mp4.mp4" type="video/mp4">
             </video>
         </section>
@@ -159,6 +168,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/slideShow.js"></script>
 </body>
 
 </html>

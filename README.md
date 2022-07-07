@@ -3,8 +3,7 @@
 <br>
 
 ## 🔥 Link (Aesop)
-![main](https://user-images.githubusercontent.com/100752008/177675238-a4b29824-38d8-4e42-8809-f52ee7b4fb07.PNG)
-
+![main](https://user-images.githubusercontent.com/100752008/177675490-f0502520-2107-4d49-a45c-e64b63ad05fb.PNG)
 ### [Aesop 바로가기](https://huunguk.github.io/AesopProject/)
 
 <br>

@@ -26,7 +26,7 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 <br>
 
 ## ⏰ Develop Period
-2022. 05 ~  
+#### 2022. 05 ~  
 
 <br>
 

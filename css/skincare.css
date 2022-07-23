@@ -1,0 +1,334 @@
+#wrap {
+  width: 100%;
+  background-color: rgb(255, 254, 242);
+}
+
+/* 메인 */
+#main {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(48, 48, 48);
+}
+
+/* 메인 상단바 */
+#main .header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main .header a {
+  color: #fff;
+}
+
+/* 상단 / 메인 네비 */
+#main .nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+#main .nav li a {
+  transition: all 0.3s ease;
+}
+
+#main .nav li a:hover {
+  /* color: gray; */
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#main .login {
+  width: 130px;
+  height: 30px;
+  margin-top: 40px;
+  margin-right: 200px;
+  text-align: center;
+  border: 1px solid rgb(177, 166, 157);
+  background-color: rgb(177, 166, 157);
+  border-radius: 40px;
+  word-spacing: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#main .login a {
+  color: #fff;
+  font-weight: 900;
+}
+
+/* 로고 */
+#logo {
+  width: 100%;
+  height: 300px;
+  /* background-image: url('../images/sublogo2.jpg'); */
+  background-size: cover;
+}
+
+#logo .logo_back {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#logo .logo_script {
+  width: 95%;
+  height: 80px;
+  border-bottom: 1px solid rgb(177, 166, 157);
+  margin: 0 auto;
+}
+
+#logo .logo_script_h {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(255, 254, 242);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  bottom: 25px;
+}
+
+#logo .logo_script_h h3 {
+  font-size: 20px;
+}
+
+/* 툴팁 */
+#contents {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contents .tool_tip {
+  width: 100px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 0 0 0 45px;
+  position: absolute;
+}
+
+#contents .tool_tip li {
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#contents .tool_tip li a {
+  transition: all 0.3s ease;
+}
+#contents .tool_tip li a:hover {
+  font-size: 16px;
+  font-weight: 1000;
+}
+
+#contents .tool_tip .t_skin a {
+  border-bottom: 1.5px solid gray;
+}
+
+/* 제품 첫번째 줄 */
+#skin {
+  width: 100%;
+}
+
+#skin .skin_one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 0px 150px 0;
+  /* background-color: aqua; */
+}
+
+#contents_in {
+  width: 70%;
+  margin: 0 auto;
+  /* background-color: antiquewhite; */
+}
+
+/* 스킨케어 모두보기 */
+#contents_in .all {
+  float: right;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+#contents_in .all a {
+  color: gray;
+}
+
+/* 제품1 */
+#skin .s_menu {
+  width: 250px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#skin .s_menu img {
+  height: 250px;
+}
+
+#skin .s_menu h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+#skin .s_menu h4 {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#skin .s_menu p {
+  text-align: left;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+}
+
+#skin .s_menu .s_menu_shop {
+  width: 250px;
+  height: 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+#skin .s_menu .s_menu_shop:hover {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-weight: bold;
+}
+/* 제품 두번째 줄 */
+#skin .skin_two {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 100px 0;
+}
+
+/* 내 피부 이해하기 */
+#understand {
+  width: 100%;
+  margin-top: 170px;
+  background-color: rgb(255, 254, 242);
+}
+
+#understand .u_skin {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+/* 내 피부 이해하기 문구 */
+#understand .u_skin_in {
+  width: 40%;
+  padding-left: 45px;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+#understand .u_skin_in h3 {
+  font-size: 30px;
+}
+
+#understand .u_skin_in p {
+  font-size: 14px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+#understand .u_skin_look {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+/* 자세히 살펴보기 */
+#understand .u_skin_look {
+  margin-top: 20px;
+}
+
+#understand .u_skin_look a {
+  font-size: 14px;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+
+#understand .u_skin_look a:hover {
+  font-weight: 900;
+  padding: 10px 100px;
+}
+
+#understand .u_image {
+  width: 60%;
+}
+
+#understand .u_image img {
+  width: 100%;
+  float: right;
+  padding: 100px 0 100px 100px;
+  box-sizing: border-box;
+}
+
+/* footer*/
+#footer {
+  width: 100%;
+  height: 180px;
+  background-color: rgb(48, 48, 48);
+}
+
+#footer .f_nav {
+  width: 100%;
+  background-color: rgb(39, 39, 39);
+}
+
+#footer .f_in {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+#footer .f_nav ul {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer .f_nav a {
+  color: #fff;
+}
+
+/* customer service */
+#footer .f_cus {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#footer .f_cus h3 {
+  font-size: 20px;
+  color: rgb(158, 150, 150);
+}
+
+#footer .f_cus p {
+  font-size: 12px;
+  margin-top: 20px;
+  color: rgb(175, 175, 175);
+}

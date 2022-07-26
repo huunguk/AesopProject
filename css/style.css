@@ -615,6 +615,7 @@
     align-items: center;
     cursor: pointer;
     margin: 0 auto;
+    font-size: 12px;
   }
 
   #main .nav li a {
@@ -623,18 +624,18 @@
 
   #main .nav li a:hover {
     /* color: gray; */
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: underline;
   }
 
   #main .login {
-    width: 90px;
+    width: 130px;
     height: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 35px;
-    margin-right: 50px;
+    margin-right: 10px;
     text-align: center;
     border: 1px solid rgb(177, 166, 157);
     background-color: rgb(177, 166, 157);
@@ -646,6 +647,7 @@
 
   #main .login a {
     color: #fff;
+    font-size: 12px;
   }
 
   #main .logo {
@@ -653,19 +655,19 @@
   }
 
   #main .logo img {
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
   }
 
   /* 탁월한 셀렉션 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
   #section {
     width: 100%;
-    height: 700px;
+    height: 650px;
     background-color: rgb(252, 252, 248);
   }
 
   #section h3 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding-top: 90px;
   }
@@ -685,7 +687,7 @@
     top: 0;
     width: 500px;
     transition: left 0.5s ease-out;
-    padding-top: 40px;
+    padding-top: 100px;
     box-sizing: border-box;
   }
 
@@ -704,7 +706,7 @@
 
   #slideShow .slides li img {
     width: 100%;
-    height: 300px;
+    height: 200px;
   }
 
   #slideShow .controller span {
@@ -758,8 +760,6 @@
     color: #fff;
     border: 1px solid rgb(44, 44, 44);
     background-color: rgb(44, 44, 44);
-    border-radius: 10px;
-    padding: 4px 20px 8px 20px;
     cursor: pointer;
   }
 
@@ -838,7 +838,7 @@
   }
 
   #rec .rec_script {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(252, 252, 248);
     display: flex;
     justify-content: center;
@@ -861,7 +861,7 @@
   }
 
   #guide .guide_script {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(252, 252, 248);
     display: flex;
     justify-content: center;
@@ -1216,12 +1216,12 @@
   }
 
   #main .logo {
-    padding-left: 10px;
+    padding-left: 30px;
   }
 
   #main .logo img {
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin-top: 40px;
   }
 
@@ -1233,7 +1233,7 @@
   }
 
   #section h3 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding-top: 90px;
   }
@@ -1253,7 +1253,7 @@
     top: 0;
     width: 500px;
     transition: left 0.5s ease-out;
-    padding-top: 40px;
+    padding-top: 100px;
     box-sizing: border-box;
   }
 
@@ -1272,7 +1272,7 @@
 
   #slideShow .slides li img {
     width: 100%;
-    height: 300px;
+    height: 200px;
   }
 
   #slideShow .controller span {
@@ -1586,17 +1586,18 @@
 
   #travel {
     width: 100%;
-    height: 600px;
+    /* height: 300px; */
     background: black;
     background-color: rgb(252, 252, 248);
     box-sizing: border-box;
+    margin-top: 100px;
   }
 
   #travel .t_script {
     width: 100%;
     height: 230px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 0px;
   }
 
   #travel .t_script h3 {

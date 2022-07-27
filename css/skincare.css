@@ -37,8 +37,6 @@
 }
 
 #main .nav li a:hover {
-  /* color: gray; */
-  font-size: 16px;
   text-decoration: underline;
 }
 
@@ -126,9 +124,10 @@
 #contents .tool_tip li a {
   transition: all 0.3s ease;
 }
+
 #contents .tool_tip li a:hover {
-  font-size: 16px;
   font-weight: 1000;
+  color: rgb(0, 0, 32)
 }
 
 #contents .tool_tip .t_skin a {
@@ -216,6 +215,7 @@
   color: white;
   font-weight: bold;
 }
+
 /* 제품 두번째 줄 */
 #skin .skin_two {
   display: flex;

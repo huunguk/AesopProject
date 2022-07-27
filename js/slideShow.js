@@ -11,8 +11,11 @@ const slideMargin = 100; //슬라이드간의 margin 값
 slides.style.width = (slideWidth + slideMargin) * slideCount + 'px';
 
 function moveSlide(num) {
-  slides.style.left = -num * 400 + 'px';
+  if (num !== 3) {
+    slides.style.left = -num * 400 + 'px';
+  }
   currentIdx = num;
+
 }
 
 prev.addEventListener('click', function () {
@@ -28,7 +31,7 @@ next.addEventListener('click', function () {
   다음 버튼 눌러도 아무런 반응 없게 하기 위해
   currentIdx !==slideCount - 1 일때만 
   moveSlide 함수 불러옴 */
-  if (currentIdx !== slideCount - 1) {
+  if (currentIdx !== slideCount - 1) {//01234
     moveSlide(currentIdx + 1);
   }
 });

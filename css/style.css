@@ -17,6 +17,7 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 #main .header a {
@@ -24,12 +25,25 @@
 }
 
 /* 상단 / 메인 네비 */
+#main .header .header_logo {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 50px;
+}
+
+#main .header .header_logo img {
+  width: 200px;
+  height: 100px;
+}
+
+
 #main .nav {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 300px;
   cursor: pointer;
   font-size: 14px;
 }
@@ -44,18 +58,16 @@
 }
 
 #main .login {
-  width: 160px;
+  width: 10%;
   height: 30px;
-  margin-top: 50px;
-  margin-right: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 45px;
+  margin-right: 100px;
   text-align: center;
   border: 1px solid rgb(177, 166, 157);
   background-color: rgb(177, 166, 157);
   border-radius: 40px;
   padding: 5px;
+  word-spacing: 5px;
   cursor: pointer;
 }
 
@@ -592,11 +604,15 @@
 
   /* 메인 상단바 */
   #main .header {
-    width: 80%;
+    width: 100%;
     height: 100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  #main .header .header_logo {
+    display: none;
   }
 
   #main .header a {
@@ -605,12 +621,12 @@
 
   /* 상단 / 메인 네비 */
   #main .nav {
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
     cursor: pointer;
-    margin: 0 auto;
     font-size: 12px;
   }
 
@@ -625,19 +641,16 @@
   }
 
   #main .login {
-    width: 130px;
+    width: 10%;
     height: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 35px;
-    margin-right: 10px;
+    margin-top: 45px;
+    margin-right: 100px;
     text-align: center;
     border: 1px solid rgb(177, 166, 157);
     background-color: rgb(177, 166, 157);
     border-radius: 40px;
-    word-spacing: 5px;
     padding: 5px;
+    word-spacing: 5px;
     cursor: pointer;
   }
 
@@ -1172,12 +1185,17 @@
 
   /* 상단 / 메인 네비 */
   #main .nav {
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
     cursor: pointer;
-    margin: 0 auto;
+    font-size: 10px;
+  }
+
+  #main .header .header_logo {
+    display: none;
   }
 
   #main .nav li a {
@@ -1191,20 +1209,18 @@
   }
 
   #main .login {
-    width: 90px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    margin-right: 50px;
+    width: 13%;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: 100px;
     text-align: center;
     border: 1px solid rgb(177, 166, 157);
     background-color: rgb(177, 166, 157);
     border-radius: 40px;
+    padding: 1.5px;
     word-spacing: 5px;
-    padding: 5px;
     cursor: pointer;
+    font-size: 8px;
   }
 
   #main .login a {

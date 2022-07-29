@@ -6,7 +6,7 @@
 /* 메인 */
 #main {
   width: 100%;
-  height: 130px;
+  height: 120px;
   background-color: rgb(48, 48, 48);
 }
 
@@ -28,8 +28,10 @@
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 300px;
   cursor: pointer;
+  font-size: 14px;
+
 }
 
 #main .nav li a {
@@ -40,23 +42,37 @@
   text-decoration: underline;
 }
 
+#main .header .header_logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 50px;
+}
+
+#main .header .header_logo img {
+  width: 200px;
+  height: 100px;
+}
+
 #main .login {
-  width: 130px;
+  width: 10%;
   height: 30px;
-  margin-top: 40px;
-  margin-right: 200px;
+  margin-top: 45px;
+  margin-right: 100px;
   text-align: center;
   border: 1px solid rgb(177, 166, 157);
   background-color: rgb(177, 166, 157);
   border-radius: 40px;
-  word-spacing: 5px;
   padding: 5px;
+  word-spacing: 5px;
   cursor: pointer;
 }
 
 #main .login a {
   color: #fff;
-  font-weight: 900;
+  font-size: 14px;
 }
 
 /* 로고 */
@@ -232,15 +248,21 @@
 
 #understand .u_skin {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 80px;
 }
 
 /* 내 피부 이해하기 문구 */
 #understand .u_skin_in {
   width: 40%;
-  padding-left: 45px;
+  height: 300px;
   box-sizing: border-box;
-  padding-top: 100px;
+  margin-left: 70px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #understand .u_skin_in h3 {

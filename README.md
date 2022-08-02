@@ -16,7 +16,8 @@
 <br>
 
 ## 🛠 Use Stack
-### Design : <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badg=flat-square&logo=Figma&logoColor=white"/>
+### Design : <img src="https://img.shields.io/badge/AdobeXD-FF61F6?style=for-the-badg=flat-square&logo=AdobeXD&logoColor=white"/>
+
 ### Stack : <img src="https://img.shields.io/badge/Html-E34F26?style=for-the-badg=flat-square&logo=Html5&logoColor=white"/> <img src="https://img.shields.io/badge/Css-1572B6?style=for-the-badg=flat-square&logo=Css3&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badg=flat-square&logo=Javascript&logoColor=white"/>
 
 <br>

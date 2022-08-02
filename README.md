@@ -5,16 +5,13 @@
 ## 🔥 Link (Aesop)
 ![main](https://user-images.githubusercontent.com/100752008/177675490-f0502520-2107-4d49-a45c-e64b63ad05fb.PNG)
 ### [Go To "Aesop"](https://huunguk.github.io/AesopProject/)
+### [GO To "Dev-vlog(development retrospective)"](https://velog.io/@huunguk/Aesop-%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EB%A7%88%EC%B9%98%EB%A9%B0)
+
 
 <br>
 
 ## 🔎 Description
-
-**Aesop**은 ~
-
-<!-- 여행을 기반으로한 정보 공유 및 커뮤니티 기능을 가지고 있습니다.
-We are traveling의 약자이며 여행자들을 대상으로 서비스를 제공합니다.  
-     -->
+**Aesop homepage**는 기존 홈페이지를 참고하여 내가 구현하고 싶은 기능과, 디자인을 기획했고 기본적인 Html, Css, Javascript를 학습하는데 의미를 두고 프로젝트를 진행했다.
      
 <br>
 
@@ -25,26 +22,9 @@ We are traveling의 약자이며 여행자들을 대상으로 서비스를 제�
 <br>
 
 ## ⏰ Develop Period
-#### 2022. 05 ~  
+#### 2022.05.15 ~ 2022.07.15 (약 2개월)
 
 <br>
 
 ## 👩‍💻 Collaborator
 - [진형욱](https://github.com/huunguk)
-
-<br>
-
-## 📌 TroubleShooting 
-### 1. 
-#### ❔ Why :
-#### ☑️ Solutions : 
-
-***
-### 2. 
-#### ❔ Why :
-#### ☑️ Solutions : 
-
-***
-### 3. 
-#### ❔ Why :
-#### ☑️ Solutions : 
